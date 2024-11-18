@@ -1,7 +1,7 @@
 // api/submitForm.js
 
 // Importa o array de submissões
-import { submissions } from './getSubmissions';
+import { submissions } from './getSumissions';
 
 export default function handler(req, res) {
   if (req.method === 'POST') {
